@@ -22,7 +22,7 @@ function App() {
       <div className='ColW100' style={{position:'absolute', top:'0px'}}>
           <div className='RowW90'>
             <div className='HiTours'><img width='80px' src={HiTours} /></div>
-            <div className='RowW50' style={{position:'absolute',left:'45vw',top:'30px', gap:'8%'}}>
+            <div className='RowW50' style={{position:'absolute',left:'35vw',top:'30px', gap:'8%'}}>
               <a href='/' className='NavTab'>ABOUT US</a>
               <a href='/' className='NavTab'>DESTINATIONS</a>
               <a href='/' className='NavTab'>EXPERIENCES</a>
@@ -30,14 +30,17 @@ function App() {
               <a href='/' className='NavTab'>CONTACT US</a>
             </div>
           </div>
+          <div className='ColW30' style={{right:'0%',marginTop:'150px',left:'60%'}}>
+              <div className='RowW30' style={{ gap:'40px'}}>
+              <div className='Wline1'>.</div>
+              <div className='Top2'>NEW AGE DESTINATION MANAGEMENT</div>
+              </div>
+          </div>
       </div>
        
         
        
-       <div className='RowW30' style={{position:'absolute', top:'35%', left:'65%', gap:'40px'}}>
-        <div className='Wline1'>.</div>
-        <div className='Top2'>NEW AGE DESTINATION MANAGEMENT</div>
-       </div>
+       
 
        <div className='ColW20' style={{position:'absolute', top:'45%', left:'75%',fontSize:'60px', textAlign:'left', color:'white'}}>
         Take the world for a ride

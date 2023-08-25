@@ -18,22 +18,22 @@ import Testimonial from './components/testimonial';
 function App() {
   return (
     <div className="App">
-        
        <div to='/' className='petra'><img width='100%' height='1100px' src={Petra}/></div>
       <div className='ColW100' style={{position:'absolute', top:'0px'}}>
           <div className='RowW90'>
-            hi
+            <div className='HiTours'><img width='80px' src={HiTours} /></div>
+            <div className='RowW50' style={{position:'absolute',left:'45vw',top:'30px', gap:'8%'}}>
+              <a href='/' className='NavTab'>ABOUT US</a>
+              <a href='/' className='NavTab'>DESTINATIONS</a>
+              <a href='/' className='NavTab'>EXPERIENCES</a>
+              <a href='/' className='NavTab'>TRAVEL STYLES</a>
+              <a href='/' className='NavTab'>CONTACT US</a>
+            </div>
           </div>
       </div>
-       <div className='HiTours'><img width='80px' src={HiTours} /></div>
+       
         
-       <div className='RowW50' style={{position:'absolute',left:'45vw',top:'30px', gap:'8%'}}>
-       <a href='/' className='NavTab'>ABOUT US</a>
-       <a href='/' className='NavTab'>DESTINATIONS</a>
-       <a href='/' className='NavTab'>EXPERIENCES</a>
-       <a href='/' className='NavTab'>TRAVEL STYLES</a>
-       <a href='/' className='NavTab'>CONTACT US</a>
-       </div>
+       
        <div className='RowW30' style={{position:'absolute', top:'35%', left:'65%', gap:'40px'}}>
         <div className='Wline1'>.</div>
         <div className='Top2'>NEW AGE DESTINATION MANAGEMENT</div>

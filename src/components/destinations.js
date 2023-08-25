@@ -16,8 +16,7 @@ const Destinations = () => {
         <div className='RowW30' style={{marginLeft:'6vw',width:'35vw', flexWrap:'nowrap', gap:'40px'}}>
             <div><img src={Mt} height='400px' width='270px' style={{borderRadius:'10%'}}/></div>
             <div><img src={Mt} height='400px' width='270px' style={{borderRadius:'10% 0 0% 10%'}}/></div>
-        </div>
-        
+        </div>   
     </div>
   )
 }

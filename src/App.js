@@ -4,7 +4,6 @@ import Petra from './images/petra.jpeg'
 import HiTours from './images/HiTours.jpeg'
 import * as Icons from 'react-feather'
 import Image from './components/image';
-import Image2 from './components/image2';
 import { Link } from 'react-router-dom';
 import Story1 from './components/story1';
 import CamelSea from './images/camelSea.jpeg';

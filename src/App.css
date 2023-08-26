@@ -300,6 +300,47 @@ a:hover{
   border-radius:30px
 }
 
+.Suno{
+  color:white;
+  position:relative;
+  top: -120px;
+  left:20px;
+  font-size: 25px;
+  font-weight: 600;
+  width:140px;
+  text-align: left;
+}
+
+.Suno1{
+  color:white;
+  position:relative;
+  top: -180px;
+  left:20px;
+  font-size: 25px;
+  font-weight: 600;
+  width:140px;
+  text-align: right;
+}
+
+.ImageDes{
+  color:white;
+  position:relative;
+  margin-top: -40px;
+  margin-left:20px;
+  font-size: 13px;
+  font-weight: 600;
+  width:140px;
+  text-align: left;
+}
+
+.rel{
+  position:relative;
+}
+
+.abs{
+  position:absolute;
+}
+
 @media (min-width:'1400px'){
   .RowW60{
     flex-wrap: nowrap;

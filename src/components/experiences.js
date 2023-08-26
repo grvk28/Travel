@@ -18,18 +18,18 @@ const Experiences = () => {
                         <Image2 width='170px' height='220px' title='EXPERIENCE WILDLIFE'/>
                     </div>
                 </div>
-                <div className='ColW50' style={{padding:'0px'}}>
+                <div className='ColW50' style={{padding:'0px', left:'-10px'}}>
                     <div className='RowW100' style={{padding:'0px', gap:'10px'}}>
                     <div style={{width:'130px'}}>
                         <div><img src={Mt} height='220px' width='145px' style={{borderRadius:'10px'}}/></div>
                         <div className='ImageDes'></div>
                     </div>
-                    <div className='rel' style={{width:'100px', left:'20px', top:'60px'}}>
+                    <div className='rel' style={{width:'100px', left:'17px', top:'60px'}}>
                         <div><img src={Mt} height='160px' width='100px' style={{borderRadius:'10px'}}/></div>
                         <div className='ImageDes'></div>
                     </div>
                     </div>
-                    <div style={{position:'relative',top:'55px', textAlign:'left'}}>
+                    <div style={{position:'relative',top:'50px', textAlign:'left'}}>
                         <Image2 width='242px' height='150px' title='EXPERIENCE WILDLIFE'/>
                     </div>
                 </div>

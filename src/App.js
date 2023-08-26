@@ -13,6 +13,7 @@ import Experiences from './components/experiences';
 import Travel from './components/travel';
 import NewAge from './components/newage';
 import Testimonial from './components/testimonial';
+import Journey from './components/journey';
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
 
           <Experiences/>
           <Travel/>
+          <Journey/>
           <NewAge/>
           <Testimonial/>
           <Footer/>
